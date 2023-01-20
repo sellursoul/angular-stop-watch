@@ -37,6 +37,8 @@
   margin-left: 10px;
   background-position: center;
   transition: background 0.9s;
+  justify-content: center;
+  padding: 3px;
 }
 
 .button-container .tgl_buttons:hover {
