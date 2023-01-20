@@ -1,0 +1,50 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 350px;
+  background-image: linear-gradient(to right, steelblue, slateblue);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+  color: white;
+  border-radius: 1rem;
+  padding: 20px 25px;
+  text-align: center;
+}
+
+.stopwatch {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.button-container button {
+  background-color: lightyellow;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color: steelblue;
+}
+
+.button-container .tgl_buttons {
+  margin-left: 10px;
+  background-position: center;
+  transition: background 0.9s;
+}
+
+.button-container .tgl_buttons:hover {
+  background-color: #f1f2f5;
+}
+
+.button-container .tgl_buttons:active {
+  background-color: gainsboro;
+  background-size: 100%;
+  transition: background 0s;
+}
